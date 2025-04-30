@@ -2,27 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Erick's personal portfolio showcasing projects and contact information.">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio - Erick</title>
 </head>
 <body>
   <header>
     <h1>Portfolio</h1>
+    <img src="assets/30E2A4F6-65D0-437A-B144-98F1C1953529_1_105_c.jpeg" alt="">
   </header>
   <nav>
-    <a href="#">About me</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#about">About me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
   <main>
-    <section>
-      <h2>About me</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, dolorem repellat dolore iusto expedita animi perspiciatis natus quibusdam vel doloribus. Culpa quod libero excepturi at illo alias nesciunt quasi magni!</p>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-flex">
+        <img src="assets/30E2A4F6-65D0-437A-B144-98F1C1953529_1_105_c.jpeg" alt="Erick's portrait" class="about-img">
+        <div class="about-content">
+          <h3>Hi, I'm Erick!</h3>
+          <p>
+            I’m a full stack web developer and experienced construction professional from New York City. I started my career as a construction laborer before discovering my passion for technology. After completing Pursuit’s intensive coding program, I now focus on using my tech skills to bring innovation and greater efficiency to the construction industry. My goal is to help modernize construction through new technology and smarter solutions.
+            <!-- I’m a passionate web developer focused on clean, modern design and user-friendly experiences. I love turning ideas into reality through code and creativity. -->
+          </p>
+          <p>
+            Outside of coding, I enjoy playing ping pong and chess. I believe in lifelong learning, collaboration, and building tools that improve people’s lives.
+          </p>
+          <a href="#contact" class="about-link">Let’s connect</a>
+        </div>
+      </div>
     </section>
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, dolorem repellat dolore iusto expedita animi perspiciatis natus quibusdam vel doloribus. Culpa quod libero excepturi at illo alias nesciunt quasi magni!</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/project1-thumbnail.jpg" alt="Screenshot of Project 1">
+          <div class="project-content">
+            <h3>DEJAFOOD</h3>
+            <p>DejaFood isn’t just a recipe organizer-it’s your family’s digital cookbook and memory box, all in one. Store your favorite recipes with a personal touch: add video clips of you and your loved ones cooking together, laughing, and making memories. Every dish becomes a story, every recipe a time capsule you can revisit forever.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project2-thumbnail.jpg" alt="Screenshot of Project 2">
+          <div class="project-content">
+            <h3>FIERRO</h3>
+            <p> Fierro is more than just a workout app-it’s your gateway to a global fitness community and your personal progress tracker. Whether you’re just starting out or pushing for new goals, Fierro helps you discover exercises, learn from real people, and stay on top of your fitness journey.
+
+            </p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/project1-thumbnail.jpg" alt="Screenshot of Project 1">
+          <div class="project-content">
+            <h3>E-commerce site</h3>
+            <p>Short description about the project, the goal, and technologies used.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project2-thumbnail.jpg" alt="Screenshot of Project 2">
+          <div class="project-content">
+            <h3></h3>
+            <p>Short description about the project, the goal, and technologies used.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
     </section>
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <form action="">
         <label for="name">Name</label>
@@ -35,6 +89,11 @@
       </form>
     </section>
   </main>
-  <footer>footer by erick</footer>
+  <footer>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+    footer by erick</footer>
 </body>
 </html>
